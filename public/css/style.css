@@ -1,0 +1,123 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.725)),url(../images/background.jpg);	
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+
+}
+
+.profile h1{
+    padding-top: 10%;
+    text-align: left;
+    color: #fff;
+    font-size: 60px;
+	margin-top: 10%;
+    margin-left: 20%;
+}
+
+.profile h3{
+
+	color: #fff;
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: lighter;
+	margin-top: 3%;
+    margin-left: 20%;
+}
+
+.course{
+    background-color: rgba(255, 255, 255, 0.373);
+    border-radius: 15px;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+
+.cardo{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 10px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+
+}
+.c1{
+    margin-top: 15%;
+	background-image: url(../images/item1.png);
+}
+.c2{
+	background-image: url(../images/item1.png);
+}
+.cardo:hover{
+	transform: translateY(-10px);
+}
+
+h6{
+	color: #000;
+    font-weight: bold;
+	text-shadow: 0 0 5px #999;
+}
+.cardo p{
+	color: #000;
+	text-shadow: 0 0 15px #000;
+	font-size: 8px;
+}
+/* 
+.contact h1{
+    padding-top: 15px;
+    text-align: left;
+    color: #fff;
+    font-size: 60px;
+	margin-top: 25%;
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+
+.contact h3{
+
+	color: #fff;
+	font-size: 23px;
+	font-weight: lighter;
+    margin-left: 22%;
+}
+
+.box{
+	align-items: baseline;
+	width:410px;
+	height: 60px;
+	padding: 0;
+    margin-top: 5%;
+	margin-left: 22%;
+}
+
+.sosmed{
+	
+	width: 70px;
+	padding-right: 25px;
+	-webkit-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.sosmed:hover{
+	opacity: 50%;
+}
+ */
+
